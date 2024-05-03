@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/** Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: inter, sans-serif;
+}
+/** Navbar */
+.active::before{
+    content: "{";
+}
+.active::after{
+    content: "}";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/** Headings */
+.projects:hover,
+.contact:hover,
+.about:hover,
+.cv:hover
+{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color:black;
+    -moz-text-decoration-color:black;
+}
+.mainTitle {
+    text-decoration: underline;
+    text-decoration-thickness: 8px;
+    text-decoration-color: white;
+    -moz-text-decoration-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/** General */
+body {
+    padding: 0 2rem;
+    
+}
+main {
+    height: calc(100vh - 5rem);
+    scrollbar-width:none;
+}
+main span {
+    padding: .5rem;
+}
+main::-webkit-scrollbar {
+    display: none;
+}
+:root {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+:root::-webkit-scrollbar{
+    display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p, h1,h2,h3 {
+    max-width: 65ch;
+}
+.profileImage {
+    position: absolute;
+    mix-blend-mode: darken;
+    bottom: 2.4rem;
+    right:2rem;
+    z-index: 1;
+    background-image: url(/public/assets/profil_nobg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+.gridWrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+}
+.cvWrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, .16) 0  1px 4px;
+}
+.card-image{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-info p{
+    padding: .5rem 1rem;
+}
+
+
+@media (max-width: 640px) {
+    body {
+        padding: 0;
+    }
+    footer, header {
+        padding: 0 1rem;
+    }
+    
 }

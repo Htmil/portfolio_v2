@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "projectName": "Malmu",
+        "projectDescription": "Mobile app that allows you to play an interactive story around the city of Malmö. The app uses gps to navigate the user through the story. This was part of a university project.",
+        "src": "/assets/xmedia_bild.png"
+    },
+    {
+        "id": 2,
+        "projectName": "Svenska Landskap",
+        "projectDescription": "An app that allows you to explore the Swedish landscape and its collection of Province animals and flowers. This was part of a university project.",
+        "src": "/assets/landskap_bild.png"
+    },
+    {
+        "id": 3,
+        "projectName": "Tama",
+        "projectDescription": "Tama is a tamagotchi game that allows you to interact with your pet and check other users pets. When the pet is hungry it gets mad at you. This was part of a university project.",
+        "src": "/assets/tama_bild.png"
+    },
+    {
+        "id": 4,
+        "projectName": "MyPallets",
+        "projectDescription": "Pallet generator that allows you to create your own random pallets this project uses: colormind.io/api. This was part of a university project.",
+        "src": "/assets/myPallets_bild.png"
+    },
+    {
+        "id": 5,
+        "projectName": "Dynamo Sax",
+        "projectDescription": "Dynamo Sax is a Graphic design project where i created a design for a imaginary barbershop. The image shows one of the products i created in this assignment. This was part of a university project.",
+        "src": "/assets/DS_bild.png"
+    },
+    {
+        "id": 6,
+        "projectName": "Poster Project",
+        "projectDescription": "A poster project where i created a design for a imaginary event based on a real event that was about to happen in Malmö, The design is inspired by the art from Bauhaus art style. This was part of a university project.",
+        "src": "/assets/aff_bild.png"
+    },
+    {
+        "id": 7,
+        "projectName": "Munamii",
+        "projectDescription": "Munamii is an e-commerce website created with react. The functionality is not fully implemented, only the frontEnd part.",
+        "src": "/assets/munamii_bild.png"
+    },
+    {
+        "id": 8,
+        "projectName": "Asset Tracking",
+        "projectDescription": "C# Console Application that allows you to track your assets.",
+        "src": "/assets/assetTrack_bild.png"
+    },
+    {
+        "id": 9,
+        "projectName": "Todo List",
+        "projectDescription": "C# Console Application that allows you add, edit and delete tasks.",
+        "src": "/assets/todo_bild.png"
+    }
+]
+
