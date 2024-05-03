@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio_v2/static/css/main.446fbda8.css",
+    "main.js": "/portfolio_v2/static/js/main.5ed86e7b.js",
+    "static/media/profil_nobg.png": "/portfolio_v2/static/media/profil_nobg.95b5b82130f73ded2410.png",
+    "index.html": "/portfolio_v2/index.html",
+    "main.446fbda8.css.map": "/portfolio_v2/static/css/main.446fbda8.css.map",
+    "main.5ed86e7b.js.map": "/portfolio_v2/static/js/main.5ed86e7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.446fbda8.css",
+    "static/js/main.5ed86e7b.js"
+  ]
+}
